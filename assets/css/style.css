@@ -10,7 +10,8 @@ body {
 	line-height: 30px;
 	text-align: left;
 	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
-	width: 1200px;
+
+	
 }
 
 header	{
@@ -128,16 +129,11 @@ input::-webkit-input-placeholder {
 }
 
 footer {
-	clear: both;
-	margin: 0 auto;
-	vertical-align: middle;
 	padding: 18px;
 	height: 70px;
-	background-color: #66FFFF;
-	width: 100%;
-	border-bottom: none;
 	color: #000000;
 	text-align: center;
+	background-color:rgba(0, 0, 0, 0.1) ;
 }
 
 .header-container {
@@ -150,7 +146,9 @@ footer {
 	clear: both;
 	overflow: auto;
 	margin: 0 auto;
-	background-image: url("../images/678.jpg");
+	background-image: url("../images/brick-wall-california-casual-988914.jpg");
+	background-attachment: fixed;
+	background-size: cover;
 	height: 600px;
 	width: 100%;
 	border-bottom: 5px solid #08bfec;
@@ -250,4 +248,11 @@ footer {
 #project-portfolio {
 	padding: 15px;
 	height: 500px;
+}
+#example {
+	width: 30%;
+	padding: 15px;
+	clear: both;
+	margin-left: 35%;
+	margin-right: 35%;
 }
